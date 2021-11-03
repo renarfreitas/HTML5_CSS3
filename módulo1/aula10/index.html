@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte / Pré-formatadas</h2>
+    <p>O comando <code>document.getElementeById('teste')</code> é escrito em linguagem JavaScript</p>
+    <h2>Trexo de código criado em Python.</h2>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é IMPAR')
+    print('Fim do programa')
+        </code>
+    <!--A tag <code> indentifica com fonte espaçada um trexo de um código fonte-->
+    </pre>
+    <!--a tag <pre> Mantem toda a formatação, quebras de linhas e tab do texto de código-->
+    <h2>Citações simples</h2>
+    <p>Como diria um pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <!--Citações simples usa-se a tag <q> = citation ou em português uma citação. -->
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML_XHTML_e_CSS_Para_Leigos/E8ZtDwAAQBAJ?hl=en&gbpv=1&dq=html+para+leigos&printsec=frontcover">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste caítulo descrevem os blocos de texto.
+    </blockquote>
+    <!--Citações completas estilo blocquote tem deslocamento da margem esquerda e uma linha abaixo do paragrafo-->
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <!--A tag <abbr> Mostra um pop up com o significado da sigla-->
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <!--A tag <bdo> inverte o sentido (posição), das letras no texto, da direita para a esquerda "rtl", e da esquerda para a direita, ltr, sentido natural da escrita.-->
+</body>
+</html>

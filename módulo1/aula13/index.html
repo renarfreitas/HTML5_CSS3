@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Flexíveis</h1>
+    <p>Altere manualmente o tamanho da janela do seu navegador e veja a magica acontecer! ;)</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="A imagem flexível funciona">
+    </picture>
+    <br>
+    <hr>
+    <h1>Vamos falar sobre áudio</h1>
+    <p>
+        Com a HTML5, veio também a facilidade em compartilhar áudio nos nossos sites e sem depender necessariamente de JavaScript ou plugins extras. A partir de agora, basta uma tag &lt;audio&gt; e alguns &lt;source&gt; para fazer seu site ser capaz de tocar qualquer áudio.
+    </p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/theminivandals.mp3" type="audio/mpeg">
+        <source src="midia/theminivandals.mp3" type="audio/ogg">
+        <source src="midia/theminivandals.mp3" type="audio/wav">
+        <p>Seu navegador não suporta áudio<a href="midia/theminivandals.mp3" download="midia/theminivandals.mp3" type="audio/mpeg"></a></p>
+    </audio>
+    <br>
+    <hr>
+    <h1>E os vídeos?</h1>
+    <p>
+        Com a expansão da banda larga no Brasil (sim, eu sei que ainda estamos longe de algo ideal na maioria do território nacional) tornou-se possível até assistir um vídeo em 4K em nosso plano 4G do celular (é caro, mas possível).
+        Para inserir um vídeo em nosso site, podemos utilizar a nova tag &lt;video&gt; da HTML5, caso o arquivo esteja hospedado no nosso próprio servidor.
+    </p>
+    <h2>Vídeos locais</h2>
+    <video width="560" height="315" poster="imagens/thumb.jpg" controls>
+        <source src="midia/videoplayback.mp4" type="video/webm">
+        <source src="midia/videoplayback.mp4" type="video/webm">
+        <source src="midia/videoplayback.mp4" type="video/webm">
+        <p>Infelizmente seu navegador não conseguiu carrega o vídeo.</p>
+    </video>
+    <video width="560" height="315" controls>
+        <source src="midia/pexels_artem_podrez.mp4" type="video/mp4">
+        <source src="midia/pexels_artem_podrez.webm" type="video/webm">
+    </video>
+    <hr>
+    <h2>Vídeo do YouTube</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tlUcmD0zPI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <hr>
+    <h2>Vídeo do Vimeo</h2>
+        <iframe src="https://player.vimeo.com/video/603867023?h=8a5db90f32&byline=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

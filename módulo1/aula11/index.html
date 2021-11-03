@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir par ao trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <!--A tag <ol> cria uma lista Ordenada por núemros, a partir da versão 5 do HTML, o fechamento da tag <li>, tornou-se opcional.
+    Para formatar a lista conforme sua vontade, usa-se um parametro "type", com os seguintes valores "1", "A", "a", "I", "i", na tag <ol>, para escolher o tipo de marcador de lista e determinar o inicio do marcador usando um segundo parametro "start"-->
+    <h2>Lista não Ordenadas</h2>
+    <ul type = "square">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <!--A tag <ul>, cria uma lista sem ordenação por marcador, assim com na lista ordenada a lista sem ordenação também aceita o parametro type, com os seguintes valores = "disc", "circle", "square", porem para a alteração do tipo do marcador-->
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Vbisual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario Last Levels</li>
+            </ul>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>Playstation</li>
+        <ul type="square">
+            <li>Finalfantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    <h2>Lista de Definição</h2>
+    <dl>
+        <dt>HTML</dt> <!--Termo-->
+        <dd>Linguage de marcação para criação do conteúdo de um site.</dd> <!--Descrição-->
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de progração para a criação de interatividade de um site.</dd>
+    </dl>
+</body>
+</html>

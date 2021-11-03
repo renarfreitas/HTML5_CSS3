@@ -1,0 +1,183 @@
+EXTRUTURA BÁSICA:
+
+HTML - linguagem voltada para conteúdo; 
+
+<!DOCTYPE html>
+<html langu="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,inigial-scale=1,0"> = "Área da Cabeça"
+    <title>Document</title>
+  </head>
+  <body>
+	<h1>Olá, Mundo!</h1> = "Área do corpo"
+  </body>
+</html>
+
+CSS - linguagem focada em designe;
+
+
+h1 {
+	font-family: Arial;
+	font-size: 20pt;
+	color: blue;
+   }
+
+h1 = seletor
+
+{tudo entre chaves} = declaração propriedade:valor
+ 
+JavaScript - linguagem de programação voltada para iteração.
+
+Capítulo 5
+
+Paragrafos:
+<p></p>
+
+Caracteres especiais:
+< = &lt; <--! (less than)--> 
+> = &gt; <--! (greater than)--> 
+
+Quebra de linhas:
+<hr> = linha horizontal
+<br> = quebra de linha
+
+Símbolos e Emojis:
+&reg: ®
+&copy: ©
+&trade: ™
+&euro: €
+&pound: £
+&yen: ¥
+&cent: ¢
+&Delta: Δ
+&delta: δ
+
+Emojis:
+
+https://emojispedias.org
+
+&#x1F596: emogin cara de nerd
+&#x1F913: emogin vulcan salut
+
+Capítulo 6:
+Direitos autorais:
+Sempre buscar por imagens que possuam direito de utilização e reprodução;
+Sempre ficar atento a vinculação de imagens de 3º em sua pagina.
+
+Tipos de imagens:
+Imagens com tamanho entre 150 e 200 são o suficiente para uma pagina,
+JPEG - boa qualidade de compactação
+PNG - possui tranparencia
+
+Favicon:
+<head>
+Favicon = Criar o favicon.io, site para criação de favicon.
+link inserido no cabeçalho da pagina html, na parte de configuração da
+</head>
+
+
+Capítulo 7
+Hierarquia de títulos:
+Títulos e sub-títulos
+<h1>
+  <p> lorem </p>
+  <h2>
+  <p> lorem </p>
+     <h3>
+	<p> lorem </p>
+	<h4>
+	   <p> lorem </p>
+	</h4>
+     </h3>
+  </h2>
+</h1>
+
+Harmonia de Cores:
+Cículo Cromático 12 cores 
+
+Cores Primárias:
+Amarelo:
+Vermelho;
+Azul.
+
+Cores Secundárias:
+Laranja;
+Verde;
+Violeta.
+
+Cores terciárias:
+Amarelo-esverdeado;
+Amarelo-alaranjado;
+Vermelho-alaranjado;
+Vermelho-arroxeado;
+Azul-arroxeado;
+Azul-esverdeado.
+
+As cores terciárias, são as misturas das cores, primárias e secundárias.
+Sempre Primárias e depois Secundárias = teciárias.
+
+Temperatura de cores:
+
+Divisão de cores por temperatura:
+Emisfério da esquerda: cores frias;
+Emisfério da direita> cores quentes;
+
+*Obs: Paleta de cores de 3 a 5 cores, para criação de sites;
+Observar a cor primária da logo do cliente.
+
+Cores complementares ("Cores opostas"): são as cores que mais contrastam entre si.
+
+Cores Análogas três vizinhas("Cores irmãs"): São cores com harmonia, muito próximas uma das outras.
+
+Cores Análogas Relacionadas (Duas cores vizinhas, pula uma cor, e pega a terçeira cor).
+
+Cores Intercaladas (Uma cor, pula 1 vizinha e escolha a próxima, pula outra vez, e escolhe a próxima).
+
+Monocromia: apenas uma cor, alterando a saturação e luninosidade.
+
+*{
+}
+Configuração global das CSS.
+
+FONTS
+MEDIDAS DAS FONTES
+MEDIDAS ABSOLUTAS:
+cm = centimetro;
+mm = milimetro;
+in = polegada;
+px = medida em pixels;
+pt, pc = medidas de impressão, medida tipografica.
+
+MEDIDA RELATIVAS:
+em = relativa ao tamnho atual da fonte;
+ex = tamanho da altura x de uma fonte;
+rem = relativo a fonte configarada no body;
+vw = Largura da Viewer port, porcentagem da tela;
+vh = Altura da Viewer port, também em porcetagem.
+
+PESO DA FONTE:
+font-weight: lightter, normal, bold, bolder;
+numerico: 100-900.
+
+STYLE DA FONTE:
+font-style: normal, italic.
+
+text-decoration: underline;
+
+shorthand para fonts:
+- font-style -> font-weight -> font-size -> font-family.
+	
+Modelo de Caixas
+Tipos de caixa:
+Box-level, pula uma linha e ocupa toda a largura da página ex.: <div></div>;
+
+Inline-level, Não pula linha, não ocupa toda a largura ex.: <span>.
+Aninhamento
+Elementos da caixa:
+height = altura;
+width = largura;
+boder = borda;
+padding = espaço interno entre a borda; 
+margin = epaço externo;
+outline = contorno ou traçado 

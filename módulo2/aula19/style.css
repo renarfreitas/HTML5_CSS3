@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/*
+  em HTML é id = em CSS é (#) (só pode um elemento)
+
+  OBs*: dentro de um documento HTML, não permite utilizar o id duas vezes;
+  id sobrepoem configurações de classe.
+
+  em HTML é class = em CSS é (.) (pode vários elementos)
+*/
+
+body {
+    background-color: #cecfa8;
+}
+
+h1 {
+    color: #3D5901;
+}
+
+#main {
+    text-align: center;
+    background-color: #193000;
+    color: white;
+}
+
+h2 {
+    color: #527510;
+}
+
+.basico {
+    color: green;
+}
+
+.intermediario {
+    color: yellow;
+}
+
+.avançado {
+    color: red;
+}
+
+.destaque {
+    background-color: rgb(179, 179, 79);
+}
